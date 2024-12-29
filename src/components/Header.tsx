@@ -3,6 +3,9 @@ import { usePathname } from "next/navigation"
 import Link from "next/link"
 const navbar = [
     
+    {title : 'Home',
+     href : '/home',
+    },
     {title : 'Portfolio',
      href : '/portfolio',
     },
@@ -32,9 +35,6 @@ function Header() {
    <header>
     <nav className="flex justify-center py-5 px-10">
      <ul className="flex gap-8 text-xl">
-        <li>
-            <Link className="" href={'/'}>Home</Link>
-        </li>
       {navbar.map((link) => {
         const isActive = pathname.startsWith(link.href)
         return (
