@@ -1,0 +1,27 @@
+{
+    "products" : [ {
+        "productName" : "AV300",
+        "productID" : 1,
+        "productColor" : "blue",
+        "productPrice" : 5000
+    },
+     {
+        "productName" : "AV444",
+        "productID" : 2,
+        "productColor" : "red",
+        "productPrice" : 6000
+    },
+     {
+        "productName" : "AV555",
+        "productID" : 3,
+        "productColor" : "green",
+        "productPrice" : 7000
+    },
+     {
+        "productName" : "AV950",
+        "productID" : 4,
+        "productColor" : "pink",
+        "productPrice" : 8000
+    }
+]
+}
